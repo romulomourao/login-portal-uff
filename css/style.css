@@ -9,6 +9,7 @@ body {
     border-radius: 8px;
     padding: 20px;
     background-color: #fff;
+    border: 1px solid #f0f0f0;
 }
 
 .login input {
@@ -50,7 +51,7 @@ body {
     transition: all 0.2s ease-in;
 }
 
-.login button:hover{
+.login button:hover {
     background-color: #00aeef;
     color: #ffffff;
 }
@@ -60,7 +61,7 @@ body {
 }
 
 .logo img {
-    width: 80%;
+    width: 70%;
 }
 
 .divider {
@@ -74,7 +75,6 @@ body {
 
 h2,
 h3 {
-    
     color: #00aeef !important;
     /*color: #215caa !important;*/
 }
@@ -96,7 +96,7 @@ h3 {
     margin-top: 15%;
 }
 
-.logo-footer{
+.logo-footer {
     width: 60px;
     opacity: 0.3;
 }
@@ -104,18 +104,31 @@ h3 {
 .footer {
     border-top: 1px solid gainsboro;
     padding-top: 30px;
-    margin-top: 10% !important; 
+    margin-top: 10% !important;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
     color: #cecece;
 }
-::-moz-placeholder { /* Firefox 19+ */
+
+::-moz-placeholder {
+    /* Firefox 19+ */
     color: #cecece;
 }
-:-ms-input-placeholder { /* IE 10+ */
+
+:-ms-input-placeholder {
+    /* IE 10+ */
     color: #cecece;
 }
-:-moz-placeholder { /* Firefox 18- */
+
+:-moz-placeholder {
+    /* Firefox 18- */
     color: #cecece;
+}
+
+
+.lnr{
+    font-size: 3rem !important;
+    
 }
