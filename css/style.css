@@ -82,6 +82,12 @@ h3 {
 .link-font {
     font-size: 0.8rem;
     color: #c5c5c5;
+    transition: color 0.2s ease-in;
+}
+
+.link-font:hover{
+    color: #00aeef;
+
 }
 
 .infos p {
